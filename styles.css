@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.header {
+    background-color: #1f2937;
+    flex: 0 0 72px;
+}
+
+.footer {
+    background-color: #1f2937;
+    flex: 0 0 50px;
+}
+
+.first {
+    background-color: #1f2937;
+    flex: 1;
+}
+
+.second {
+    flex: 1;
+}
+
+.third {
+    background-color: #e5e7eb;
+    flex: 1;
+}
+
+.forth {
+    flex: 1;
+}
