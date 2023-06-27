@@ -14,27 +14,95 @@ body {
 .header {
     background-color: #1f2937;
     flex: 0 0 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15%;
 }
 
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 .footer {
     background-color: #1f2937;
     flex: 0 0 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .first {
     background-color: #1f2937;
     flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15%;
+}
+
+.hero {
+    background-color: lightblue;
+    flex: 1;
+}
+
+.hero-image {
+    background-color: gray;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
 }
 
 .second {
     flex: 1;
 }
 
+.second h2 {
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    text-align: center;
+    width: 150px;
+}
+
+.img {
+    border: 2px solid lightblue;
+    width: 150px;
+    height: 150px;
+}
+
 .third {
     background-color: #e5e7eb;
     flex: 1;
+    padding: 0 20%;
+}
+
+.source {
+    text-align: right;
 }
 
 .forth {
+    padding: 0 15%;
     flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up {
+    flex: 1;
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
