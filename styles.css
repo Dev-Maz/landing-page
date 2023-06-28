@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
+    font-family: Roboto, Arial, sans-serif;
 }
 
 .content {
@@ -25,13 +26,28 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    gap: 26px;
 }
+
+.header a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
 .footer {
     background-color: #1f2937;
-    flex: 0 0 50px;
+    flex: 0 0 72px;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 
 .first {
@@ -40,16 +56,30 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 15%;
+    padding: 100px 15%;
+    gap: 30px;
 }
 
 .hero {
-    background-color: lightblue;
     flex: 1;
 }
 
+.hero h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0;
+}
+
 .hero-image {
-    background-color: gray;
+    background-color: rgba(229, 231, 235, 0.5);
+    color: #e5e7eb;
     flex: 1;
     display: flex;
     justify-content: center;
@@ -63,11 +93,17 @@ ul {
 
 .second h2 {
     text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin: 40px 0;
 }
 
 .cards {
     display: flex;
     justify-content: center;
+    gap: 50px;
+    margin-bottom: 100px;
 }
 
 .card {
@@ -76,7 +112,8 @@ ul {
 }
 
 .img {
-    border: 2px solid lightblue;
+    border: 3px solid #3882f6;
+    border-radius: 16px;
     width: 150px;
     height: 150px;
 }
@@ -84,15 +121,23 @@ ul {
 .third {
     background-color: #e5e7eb;
     flex: 1;
-    padding: 0 20%;
+    padding: 80px 20%;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
 }
 
 .source {
     text-align: right;
+    font-weight: bold;
 }
 
 .forth {
-    padding: 0 15%;
+    padding: 80px 15%;
     flex: 1;
     display: flex;
     justify-content: center;
@@ -101,8 +146,37 @@ ul {
 
 .sign-up {
     flex: 1;
-    background-color: lightblue;
+    background-color: #3882f6;
+    color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-radius: 6px;
+    padding: 40px 100px;
+}
+
+button {
+    background-color: #3882f6;
+    border: none;
+    color: #f9faf8;
+    padding: 8px 35px;
+    margin-top: 16px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.forth button {
+    border: 2px solid white;
+    margin: 0;
+    flex-shrink: 0;
+}
+
+.forth p {
+    margin: 0;
+}
+
+.action {
+    font-size: 18px;
+    font-weight: bold;
 }
